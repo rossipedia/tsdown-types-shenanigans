@@ -60,4 +60,6 @@ interface Collection<T$1> {
 export { Collection };
 ```
 
-This will cause the existing augmentation to fail type-checking _just by upgrading the package_, even though there was technically no change to that type in the source repo.
+This will cause the existing augmentation to fail type-checking _just by upgrading the package_, even though there was technically no change to that type in the source repo:
+
+<img width="707" height="127" alt="image" src="https://github.com/user-attachments/assets/43a7cb87-b977-41bf-8146-bd70426caa1f" />
